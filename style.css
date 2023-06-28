@@ -394,6 +394,16 @@ nav .container-fluid {
     background-position: left;
 }
 
+@media only screen and (max-width: 480px) {
+    .edu-content h4 {
+        font-size: 18px;
+    }
+
+    .edu-content h3 {
+        font-size: 22px;
+    }
+}
+
 /*////////////////////////////*/
 /*          PROJECT           */
 /*////////////////////////////*/
@@ -661,20 +671,18 @@ ul {
     #contact-title {
         float: left;
         text-align: center;
-        width: 50%;
+        width: 100%;
         height: 2rem;
         padding: 2rem 4rem 5rem 4rem;
-        border-bottom: none;
-        border-top: 10px solid #4a4b4d;
-        border-left: 10px solid #4a4b4d;
-        border-right: 10px solid #4a4b4d;
+        border: 10px solid #4a4b4d;
         margin: 0px;
         background-color: #afe0d5;
     }
     
     .contact-content {
         margin: 0px;
-        border: 10px solid #4a4b4d;
+        border: none;
+        /* border: 10px solid #4a4b4d; */
         height: auto;
     }
 
